@@ -10,8 +10,8 @@ test('Check user name if it is correct', () => {
   expect(result).toEqual(expected);
 });
 test('Check user name if it is incorrect', () => {
-  const createClass = new Validator('_iva2222delina-');
+  const createClass = new Validator('ivade22222lina');
   expect(() => {
-    createClass.validateUsername('_iva2222delina-');
+    createClass.validateUsername('ivade22222lina');
   }).toThrow();
 });
